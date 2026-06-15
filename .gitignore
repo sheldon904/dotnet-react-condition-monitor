@@ -1,0 +1,23 @@
+# .NET build output
+bin/
+obj/
+
+# SQLite database files created at runtime
+*.db
+*.db-shm
+*.db-wal
+
+# Node / Vite
+node_modules/
+web/dist/
+
+# IDE / editor
+.vs/
+.idea/
+*.user
+
+# Logs
+*.log
+
+# Playwright MCP scratch output (verification screenshots, snapshots)
+.playwright-mcp/
